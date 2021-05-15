@@ -1,1 +1,47 @@
 /* Add your own CSS code below */
+span {
+  color: #c85308;
+}
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: large;
+  }
+}
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 767px) {
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  a:last-child {
+    margin-left: auto;
+  }
+  a.view-list__item:nth-child(2) {
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+  a.view-list__item:nth-child(3) {
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+}
+article.main-article {
+  max-width: 50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article.main-article p {
+  line-height: 2em;
+}
